@@ -1,0 +1,281 @@
+.el-table, .el-table__expanded-cell {
+    background: rgba(0, 172, 220, 0.0) !important;
+    border-bottom: 1px solid rgba(2, 80, 255, 0.01) !important;
+}
+
+.el-table th, .el-table tr {
+    background: rgba(0, 172, 220, 0.0) !important;
+}
+
+.el-table-first td, .el-table-first th.is-leaf {
+    text-align: center;
+    border-bottom: 1px solid #0e3e81;
+    color: #fff;
+}
+
+.el-input-group__append {
+    background: none !important;
+    border-color: #307ae4;
+    border-left: none;
+}
+
+.screen-query-left > div > input {
+    border-color: #307ae4;
+}
+
+.el-input-group__append:hover {
+    background: #2a6dc8 !important;
+    border-color: #307ae4;
+    border-left: none;
+}
+
+.el-input__inner:hover {
+    border-color: #307ae4 !important;
+}
+
+.el-textarea__inner:hover {
+    border-color: #307ae4 !important;
+}
+
+.el-input__inner:focus {
+    border-color: #307ae4 !important;
+    outline: 0;
+}
+
+.el-table__body-wrapper {
+    max-height: 60vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.el-table-second {
+    border: 1px solid #2a6dc8;
+}
+
+.el-table-second td, .el-table-second th.is-leaf {
+    text-align: center;
+    border-bottom: 1px solid #2a6dc8;
+    border-right: 1px solid #2a6dc8;
+    color: #fff;
+}
+
+.el-table-second > .is-scrolling-none tr:nth-child(2n) {
+    background: #103059 !important;
+}
+
+.el-pager li {
+    background-color: rgba(17, 66, 132, 0) !important;
+    border: 1px solid #0f2e59;
+    color: #fff !important;
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+    background-color: #409EFF !important;
+    color: #FFF;
+}
+
+.el-pager li.active {
+    background-color: #409EFF !important;
+    color: #FFF;
+}
+
+.el-pager li:hover {
+    background: rgba(17, 66, 132, 01) !important;
+    border: 1px solid #0f2e59 !important;
+    color: #fff !important;
+}
+
+.div-page > span > div > input {
+    color: #fff;
+    border: 1px solid #0e3d80;
+    background: rgba(15, 46, 89, 0);
+}
+
+.div-page > span {
+    color: #fff;
+}
+
+.el-input__inner {
+    border: 1px solid #0e3d80;
+    background: rgba(14, 61, 128, 0.0) !important;
+    color: #fff !important;
+}
+
+.div-page > button {
+    border: 1px solid #0e3d80;
+    background: rgba(14, 61, 128, 0.0) !important;
+    color: #fff !important;
+}
+
+.div-page > span > div > input:hover {
+    color: #fff;
+    border: 1px solid #0e3d80;
+    background: rgba(15, 46, 89, 0);
+}
+
+.el-table-first > .is-scrolling-none tr:nth-child(odd) {
+    background: url("../assets/homePageImg/trbg.png") !important;
+    background-size: 100% 100%;
+}
+
+.el-table-second > .el-table__header-wrapper > .el-table__header > .has-gutter > tr {
+    background: #114284 !important;
+}
+
+.has-gutter > tr > .is-leaf {
+    color: #84aed5;
+}
+
+.el-table--border::after, .el-table--group::after, .el-table::before {
+    background: rgba(2, 80, 255, 0.03) !important;
+}
+
+/* 悬浮某条数据时，高亮当前行 */
+.el-table--enable-row-hover .el-table__body tr:hover > td {
+    background: #0f294c !important;
+}
+
+/* 当选中某列数据时，高亮当前行 */
+.el-table__body tr.current-row > td {
+    background: #0f294c !important;
+}
+
+::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width: 8px;
+    /*高宽分别对应横竖滚动条的尺寸*/
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2) !important;
+    background: #A4A4A4 !important;
+}
+
+::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2) !important;
+    border-radius: 8px;
+    background: #EDEDED !important;
+}
+
+.dif-but {
+    background: url("../assets/bridge/btn_bj.png");
+    border: none;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 20px;
+    background-size: 100% 100%;
+}
+
+.dif-but-submit {
+
+}
+
+.dif-but-close {
+
+}
+
+.dis-but-primary {
+    background: #307ae4 !important;
+}
+
+.screen-query-right {
+    height: 40px;
+    text-align: right;
+    padding: 0 40px;
+    display: flex;
+    line-height: 40px;
+}
+
+.dif-inp > input {
+    border-color: #307ae4;
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.dif-form-inp > input {
+    border-color: #276eb3;
+    background: #215085 !important;
+}
+
+.dif-form-inp > textarea {
+    border-color: #276eb3;
+    background: #215085 !important;
+    color: #fff;
+}
+
+.screen-query-left {
+    background: url("../assets/bridge/title_bj.png");
+    background-size: 100% 100%;
+    width: 100%;
+    padding: 0 20px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.dif-button-div {
+
+}
+
+.el-form-item__label {
+    color: #fff;
+}
+
+.dif-input-div {
+    margin: 0 20px;
+}
+
+.dif-dialog > .el-dialog {
+    background: url("../assets/bridge/xz_bj.png");
+    background-size: 100% 100%;
+}
+
+.dif-dialog > .el-dialog > .el-dialog__header {
+    padding: 10px 20px;
+}
+
+.dif-dialog > .el-dialog > .el-dialog__header > span {
+    color: #fff;
+}
+
+.dif-but-submit {
+    padding: 10px 50px;
+    background: #0c83d7;
+    color: #fff;
+    border: none;
+}
+
+.dif-but-close {
+    padding: 10px 50px;
+    background: #17588f;
+    color: #5b83ad;
+    border: none;
+}
+
+.dif-but-submit:focus, .dif-but-submit:hover {
+    color: #fff;
+    border-color: #c6e2ff;
+    background-color: #54c3e8;
+}
+
+.dif-but-close:focus, .dif-but-close:hover {
+    color: #fff;
+    border-color: #c6e2ff;
+    background-color: #54c3e8;
+}
+
+.dif-but:focus, .dif-but:hover {
+    color: #fff;
+    border-color: #c6e2ff;
+    background-color: #54c3e8 !important;
+}
+
+.el-checkbox__inner {
+    border: 1px solid #5b83ad;
+    background-color: rgba(255, 255, 255, 0);
+}
